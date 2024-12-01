@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    font-family: "Prompt", serif;
+    font-style: normal;
+    box-sizing: border-box;
+    background-color: #5e774a;
+    color: #fff;
+}
+
+div, header, nav, ul, h1, h2, p, img {
+    box-sizing: border-box;
+}
+
+/* --- HEADER SECTION ---*/
+
+.header {
+    padding: auto;
+    margin: auto;
+    background-color: rgb(43, 42, 42);
+}
+
+.main-wrapper {
+    min-height: 100vh;
+    box-sizing: border-box;
+    background-image: url("https://cdn.pixabay.com/photo/2020/09/13/19/30/ball-5569191_1280.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+
+.section__overlay {
+    position: absolute;
+    width: 100%;
+    background-color: #5e774a;
+    z-index: 1;
+}
+
+.section__item-container {
+    position: relative;
+    z-index: 10;
+    margin: auto;
+    text-align: center;
+    text-wrap: pretty;
+    max-width: 700px;
+    padding: 20px;
+    margin-top: 100px;
+}
+
+p {
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
